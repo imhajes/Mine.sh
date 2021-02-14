@@ -33,13 +33,13 @@ greenMessage "################################################"
 sleep 2
 kekMessage  "               Installiere Pakete"
 sleep 1
-apt-get install git
+apt install git
 sleep 1
-apt-get install screen
+apt install screen
 sleep 1
-apt-get install sudo
+apt install sudo
 sleep 1
-sudo apt-get install cmake build-essential libboost-all-dev
+sudo apt install cmake build-essential libboost-all-dev
 sleep 1
 git clone -b Linux https://github.com/nicehash/nheqminer
 sleep 1
@@ -55,4 +55,4 @@ make -j $(nproc)
 sleep 1
 screen ./nheqminer_cpu -b
 sleep 2
-screen ./nheqminer_cpu -l equihash.hk.nicehash.com:3357 -u $1.work1 -t 14
+screen ./nheqminer_cpu -l equihash.eu.nicehash.com:3357 -u $1.work1 -t 4

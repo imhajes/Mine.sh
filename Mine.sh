@@ -39,7 +39,7 @@ apt install screen
 sleep 1
 apt install sudo
 sleep 1
-sudo apt install cmake build-essential libboost-all-dev
+sudo apt install cmake build-essential libboost-all-dev -y
 sleep 1
 git clone -b Linux https://github.com/nicehash/nheqminer
 sleep 1

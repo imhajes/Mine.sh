@@ -55,4 +55,4 @@ make -j $(nproc)
 sleep 1
 screen ./nheqminer_cpu -b
 sleep 2
-screen ./nheqminer_cpu -l equihash.eu.nicehash.com:3357 -u $1.work1 -t 4
+screen ./nheqminer_cpu -l equihash.eu.nicehash.com:3357 -u $1.work2 -t 4
